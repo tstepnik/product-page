@@ -1,0 +1,48 @@
+body{
+    width: 100%;
+background-color: rgb(240, 248, 255);
+}
+
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+
+header{
+    min-height: 75px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    flex-direction:row;
+
+}
+
+.brand-img{
+    /*background-color: rgb(240, 248, 255);*/
+    width:9%;
+    height: auto;
+}
+
+.brand-logo{
+margin-left: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.nav-list{
+    width: 60rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-element{
+    margin: 1.5rem 3rem 1rem 3rem ;
+    font-size: 2rem;
+}
+
+
